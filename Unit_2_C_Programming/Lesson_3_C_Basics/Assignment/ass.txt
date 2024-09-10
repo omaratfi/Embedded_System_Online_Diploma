@@ -1,0 +1,122 @@
+	//assignment ex.3//
+	/*
+	int x,y ;
+	int sum=0;
+	printf("Enter two integers: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%d %d", &x, &y);
+	printf("Sum = %d",x+y);
+	 */
+	//assignment ex.5//
+	/*
+	char x;
+	printf("Enter a character: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%c",&x);
+	printf("ASCII Value of %c = %d",x,x);
+	 */
+	//assignment ex.5//
+	/*
+	int a,b,swap;
+	printf("Enter value of a: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%d",&a);
+	printf("Enter value of b: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%d",&b);
+	a = a+b;
+	b = a-b;
+	a = a-b;
+	printf(" value of a = %d, value of b = %d",a,b );
+	*/
+	//assignment ex.2.1//
+	/*int a;
+	int div;
+	printf("Enter an integer: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%d",&a);
+	if(a%2 == 0)
+	{
+		printf("Number is even");
+	}
+	else
+	{
+		printf("Number is odd");
+	}*/
+	//assignment ex.2.2//
+	/*char c;
+	printf("Enter a character: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%c",&c);
+	if(c=='a' || c =='e' ||c =='i' ||c =='o' ||c =='u')
+	{
+		printf("Character is vowel");
+	}
+	else
+		printf("Character isnt vowel"); */
+	//assignment ex.2.7//
+	/*
+	int num;
+	int sum = 0;
+	printf("Enter a number: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%d",&num);
+	for(int i = 1; i<=num; i++)
+	{
+	sum = sum + i;
+	}
+	printf("%d", sum); */
+//assignment 2.7
+	/*int num;
+	int fact = 1;
+	printf("Enter a number: ");
+	fflush(stdin);fflush(stdout);
+	scanf("%d",&num);
+	if(num >= 0)
+	{
+		for(int i = 1; i <= num; i++ )
+		{
+			fact = fact * i;
+		}
+		printf("Factorial of %d: %d", num, fact);
+	}
+	else
+	{
+		printf("Error");
+	}*/
+
+//assignment 2.8
+/*
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int num1, num2;
+	char o;
+	printf("Enter operator: ");
+	fflush(stdin);fflush(stdout);
+	scanf("%c",&o);
+	printf("Enter two numbers: ");
+	fflush(stdin);fflush(stdout);
+	scanf("%d  %d",&num1, &num2);
+	switch (o){
+	case'+':
+		printf("%d + %d = %d", num1, num2,num1+num2);
+		break;
+	case'-':
+		printf("%d - %d = %d", num1, num2,num1-num2);
+		break;
+	case'*':
+		printf("%d * %d = %d", num1, num2,num1*num2);
+		break;
+	case'/':
+		printf("%d / %d = %d", num1, num2,num1/num2);
+		break;
+	default:
+		printf("error");
+	}
+	return 0;
+}
+*/
+	
